@@ -13,9 +13,9 @@ published: true
         {{ post.title }}
       </h1>
       <br>
-      <img class="image-radius" style="padding-bottom: 30px;" src="assets/img/slider/{{ post.picture }}" alt="Feature-img" align="right" width="100%" class="blog-image">
-      <br>
-      <p style="text-align: justify;">{{ post.description }}</p>
+      <img class="image-radius" src="assets/img/slider/{{ post.picture }}" alt="Feature-img" align="right" width="100%" class="blog-image">
+     <br>
+     <p style="text-align: justify;">  {{ post.description }}</p>
       <span class="badge">{{ post.date | date: '%B %d, %Y' }}</span>
       <div class="pull-right">
         {% if post.label_default %}
